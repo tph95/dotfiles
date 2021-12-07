@@ -12,6 +12,7 @@ Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
+Plug 'dracula/vim'
 call plug#end()
 
 let g:ale_linters = {'python': ['flake8']}
