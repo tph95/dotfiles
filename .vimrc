@@ -32,7 +32,6 @@ set backspace=indent,eol,start
 
 
 "Syntax and colorscheme
-packadd! dracula
 syntax enable
 colorscheme dracula
 
