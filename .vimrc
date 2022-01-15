@@ -7,7 +7,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin('~/.vim/plugged')
-Plug 'davidhalter/jedi-vim'
+Plug 'ycm-core/YouCompleteMe'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'dense-analysis/ale'
