@@ -23,7 +23,6 @@ set showcmd
 set linebreak
 set noswapfile
 set wildmode=longest,list,full
-set iskeyword+=:
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
